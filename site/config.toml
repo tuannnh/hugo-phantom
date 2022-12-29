@@ -1,0 +1,98 @@
+baseURL = "https://phantom.tristangoetz.me"
+languageCode = "en-us"
+title = "Phantom | Personal Resume Template"
+theme = "phantom-hugo"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+[markup.goldmark.renderer]
+unsafe= true
+
+###################### Plugins #############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800"
+[[params.plugins.css]]
+link = "css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "css/themefisher-fonts.min.css"
+[[params.plugins.css]]
+link = "css/owl.carousel.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "js/jquery-2.2.4.min.js"
+[[params.plugins.js]]
+link = "js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "js/isotope.pkgd.min.js"
+[[params.plugins.js]]
+link = "js/jquery.nicescroll.min.js"
+[[params.plugins.js]]
+link = "js/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "js/jquery.easing.min.js"
+  
+
+############################## Menu ###########################
+[[menu.main]]
+name = "Welcome"
+pre = "tf-dial"
+url = "welcome"
+weight = 1
+
+[[menu.main]]
+name = "About"
+pre = "tf-profile-male"
+url = "about"
+weight = 2
+
+[[menu.main]]
+name = "Services"
+pre = "tf-tools-2"
+url = "service"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+pre = "tf-tools"
+url = "resume"
+weight = 4
+
+[[menu.main]]
+name = "Works"
+pre = "tf-briefcase2"
+url = "works"
+weight = 5
+
+[[menu.main]]
+name = "Testimonials"
+pre = "tf-chat"
+url = "testimonial"
+weight = 6
+
+[[menu.main]]
+name = "Contact"
+pre = "tf-envelope2"
+url = "contact"
+weight = 7
+  
+
+########################## Default Parameters ##################
+[params]
+logo = "img/phantom.png"
+favicon = ""
+# dark mode
+dark_mode = true
+# Preloader
+preloader = true
+# homepge
+homepage_content = "A product designer from England, who focuses on interactive design & A freelance designer focusing on typography & clean interfaces. Also works in Google."
+homepage_background = "img/banner.jpg"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io/
+# copyright text
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
